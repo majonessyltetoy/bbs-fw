@@ -17,6 +17,7 @@
 void sensors_init();
 void sensors_process();
 
+void pas_zero_pulse_counter();
 void pas_set_stop_delay(uint16_t delay_ms);
 uint16_t pas_get_cadence_rpm_x10();
 uint16_t pas_get_pulse_counter();

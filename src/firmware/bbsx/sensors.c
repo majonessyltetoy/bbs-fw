@@ -183,6 +183,11 @@ uint16_t pas_get_cadence_rpm_x10()
 	}
 }
 
+void pas_zero_pulse_counter()
+{
+	pas_pulse_counter = 0;
+}
+
 uint16_t pas_get_pulse_counter()
 {
 	uint16_t tmp;

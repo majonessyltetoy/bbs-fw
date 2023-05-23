@@ -130,6 +130,7 @@ void app_process()
 	if (assist_level == ASSIST_PUSH && g_config.use_push_walk)
 	{
 		target_current = 10;
+		pas_zero_pulse_counter();
 	}
 	else
 	{
